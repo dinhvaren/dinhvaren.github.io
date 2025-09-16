@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://darylgatt.dev; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://formspree.io; object-src 'none'; frame-ancestors 'none'; base-uri 'self'" />
+    <meta name="referrer" content="no-referrer" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Dinh Luong | Information Security</title>
+    <meta name="description" content="Explore Daryl Gatt's cybersecurity portfolio showcasing expertise in red teaming, exploit development, malware analysis, and offensive security research. Discover innovative security solutions and cutting-edge cybersecurity projects." />
+    <meta name="keywords" content="Cybersecurity, Dinhvaren, Exploit Development, Ethical Hacking, Penetration Testing" />
+    <meta name="author" content="Dinh Luong" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://dinhvaren.dev/" />
+
+    <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dinhvaren.dev/" />
+  <meta property="og:title" content="Dinh Luong | Cybersecurity" />
+  <meta property="og:description" content="Explore Dinh Luong's cybersecurity portfolio showcasing expertise in red teaming, exploit development, malware analysis, and offensive security research." />
+  <meta property="og:image" content="https://dinhvaren.dev/assets/website_logo.jpg" />
+
+    <!-- Structured Data -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dinh Luong",
+    "url": "https://dinhvaren.dev",
+    "image": "https://dinhvaren.dev/assets/website_logo.jpg",
+    "sameAs": [
+      "https://github.com/dinhvaren",
+      "https://www.linkedin.com/in/dinhvaren/",
+      "https://www.facebook.com/dvr.2203"
+    ],
+    "jobTitle": "Cybersecurity Professional",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Independent Security Researcher"
+    },
+    "description": "Cybersecurity expert specializing in red teaming, exploit development, and offensive security research."
+  }
+  </script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="theme-color" content="#000000" />
+
+    <script>
+      const savedTheme = localStorage.getItem('theme');
+      const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+      const theme = savedTheme || (prefersLight ? 'light' : 'dark');
+      document.documentElement.dataset.theme = theme;
+      if (theme === 'dark') document.documentElement.classList.add('dark');
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="/assets/website_logo.jpg" />
+    <link rel="preload" as="image" href="/assets/portfolio_image.png" />
+    
+    <!-- Skip Navigation -->
+    <style>
+      .skip-nav {
+        position: absolute;
+        top: -9999px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #22c55e;
+        color: black;
+        padding: 1rem;
+        z-index: 9999;
+        border-radius: 0 0 0.5rem 0.5rem;
+        text-decoration: none;
+      }
+      .skip-nav:focus {
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-nav">Skip to main content</a>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
