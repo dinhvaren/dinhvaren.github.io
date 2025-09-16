@@ -1,4 +1,4 @@
-# Daryl Gatt's Portfolio Website
+# Lương Nguyễn Ngọc Đình Portfolio Website
 
 Welcome to the repository for my professional portfolio website—a dynamic digital workspace showcasing my expertise in cybersecurity, ethical hacking, and secure software development. This website is designed with innovation and precision, reflecting my personal brand and technical capabilities. It serves as a comprehensive resource for professionals, recruiters, and collaborators to get to know my work better.
 
