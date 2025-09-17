@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { webcrypto as nodeCrypto } from 'node:crypto';
 
+// Polyfill crypto for environments where it may be missing
 interface CryptoHost { crypto?: Crypto }
 const globalCryptoHost = globalThis as unknown as CryptoHost;
 if (!globalCryptoHost.crypto || typeof globalCryptoHost.crypto.getRandomValues !== 'function') {
@@ -9,13 +10,14 @@ if (!globalCryptoHost.crypto || typeof globalCryptoHost.crypto.getRandomValues !
 }
 
 export default defineConfig({
-  base: '/portfolio/',        // <-- ⚡ quan trọng: dùng tên repo ở đây
+  base: '/',
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
   build: {
     chunkSizeWarningLimit: 1000,
+    sourcemap: true,
     rollupOptions: {
       output: {
         manualChunks: {
@@ -25,5 +27,5 @@ export default defineConfig({
       },
     },
   },
-  sourcemap: true,
+  // sourcemap: true,
 });
