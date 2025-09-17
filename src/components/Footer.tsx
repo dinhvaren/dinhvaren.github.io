@@ -4,7 +4,7 @@ import { Terminal, Github, ExternalLink, Heart } from 'lucide-react';
 const navItems = [
   { name: 'home', href: '#home', label: 'Navigate to home section' },
   { name: 'about', href: '#about', label: 'Learn more about me' },
-  { name: 'experience', href: '#experience', label: 'View my experience' },
+  { name: 'awards', href: '#awards', label: 'View my awards' },
   { name: 'projects', href: '#projects', label: 'Browse my projects' },
   { name: 'portfolios', href: '#portfolios', label: 'View my portfolios' },
   { name: 'contact', href: '#contact', label: 'Contact me' }
