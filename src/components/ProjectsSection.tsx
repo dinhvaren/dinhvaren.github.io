@@ -4,10 +4,9 @@ import { Code2, Github, ExternalLink, Star } from 'lucide-react';
 const projects = [
   {
     title: 'AI SmartControll',
-    description: 'An AI-powered smart home control system designed to assist people with disabilities. It integrates voice recognition and computer vision to control home appliances, enhancing accessibility and independence.',
+    description: 'An AI-powered voice-controlled computer system that enables users to operate their computer through voice commands, enhancing accessibility and convenience.',
     tech: ['Python'],
     github: 'https://github.com/dinhvaren/AI-SmartControl',
-    demo: 'https://youtu.be/dQw4w9WgXcQ?si=mhxyVuKxYHya7T0P',
     featured: true
   },
   {
@@ -15,14 +14,13 @@ const projects = [
     description: 'A decentralized video-sharing platform that integrates NFT minting and a built-in DEX, allowing creators to tokenize their content and trade directly with viewers.',
     tech: ['Solidity','OpenZeppelin','Hardhat','Next.js', 'React.js','Node.js','Express.js','MongoDB'],
     github: 'https://github.com/dinhvaren/Video_NFT_DEX_2',
-    demo: 'https://youtu.be/dQw4w9WgXcQ?si=mhxyVuKxYHya7T0P',
   },
   {
     title: 'Noi That Phu Quy',
     description: 'A full-stack furniture e-commerce website that allows users to browse products, manage shopping carts, and place orders, with an admin dashboard for product and order management.',
     tech: ['HTML5', 'CSS3', 'JavaScript','Bootstrap 5', 'Node.js', 'Express.js','MongoDB'],
     github: 'https://github.com/dinhvaren/nothatphuquy',
-    demo: 'https://youtu.be/dQw4w9WgXcQ?si=mhxyVuKxYHya7T0P',
+    demo: 'https://noithatphuquy.id.vn/',
   },
   {
     title: 'Coza Store',
@@ -43,7 +41,6 @@ const projects = [
     description: 'An upcoming framework intended for building and testing security exploits in a controlled environment, focusing on modular design and educational use.',
     tech: ['Python','Exploit Development','Security Research'],
     github: 'https://github.com/dinhvaren',
-    demo: 'https://youtu.be/dQw4w9WgXcQ?si=mhxyVuKxYHya7T0P',
   },
 ];
 
