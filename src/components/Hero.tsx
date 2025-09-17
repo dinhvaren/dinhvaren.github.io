@@ -8,7 +8,7 @@ export const Hero = memo(function Hero() {
     // Create a link element
     const link = document.createElement('a');
     link.href = '/assets/cv_document.pdf';
-    link.download = 'Daryl_Gatt_CV.pdf'; 
+    link.download = 'Luong_Nguyen_Ngoc_Dinh_CV.pdf'; 
     link.target = '_blank'; 
     link.rel = 'noopener noreferrer';
     

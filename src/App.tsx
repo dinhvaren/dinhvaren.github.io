@@ -10,7 +10,8 @@ import { ParticleBackground } from './components/ParticleBackground';
 
 // Lazy load non-critical components
 const AboutSection = lazy(() => import('./components/AboutSection').then(module => ({ default: module.AboutSection })));
-const ExperienceSection = lazy(() => import('./components/ExperienceSection').then(module => ({ default: module.ExperienceSection })));
+const AwardsSection = lazy(() => import('./components/AwardsSection').then(module => ({ default: module.AwardsSection })));
+// const ExperienceSection = lazy(() => import('./components/ExperienceSection').then(module => ({ default: module.ExperienceSection })));
 const ProjectsSection = lazy(() => import('./components/ProjectsSection').then(module => ({ default: module.ProjectsSection })));
 const ContactSection = lazy(() => import('./components/ContactSection').then(module => ({ default: module.ContactSection })));
 const PortfoliosSection = lazy(() => import('./components/PortfoliosSection').then(module => ({ default: module.PortfoliosSection })));
@@ -36,7 +37,8 @@ function AppContent() {
         <Hero />
         <Suspense fallback={<SectionLoader />}>
           <AboutSection />
-          <ExperienceSection />
+          <AwardsSection/>
+          {/* <ExperienceSection /> */}
           <ProjectsSection />
           <PortfoliosSection />
           <ContactSection />

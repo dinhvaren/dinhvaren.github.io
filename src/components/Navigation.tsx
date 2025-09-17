@@ -6,7 +6,8 @@ import { ThemeToggle } from './ThemeToggle';
 const navItems = [
   { name: 'home', icon: Home, href: '#home', label: 'Navigate to home section' },
   { name: 'about', icon: User, href: '#about', label: 'Learn more about me' },
-  { name: 'awards', icon: Briefcase, href: '#awards', label: 'View my awards' },
+  { name: 'awards', icon: User, href: '#awards', label: 'List of my awards' },
+  // { name: 'experience', icon: Briefcase, href: '#experience', label: 'List of my experience' },
   { name: 'projects', icon: Code2, href: '#projects', label: 'Browse my projects' },
   { name: 'portfolios', icon: Link, href: '#portfolios', label: 'View my portfolios' },
   { name: 'contact', icon: Send, href: '#contact', label: 'Contact me' }

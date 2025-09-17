@@ -25,6 +25,7 @@ export interface CommandContext {
   getSkillsData: () => string;
   getContactData: () => string;
   getExperienceData: () => string;
+  getAboutEducation: () => String;
 }
 
 export interface TerminalCommand {
@@ -46,6 +47,7 @@ export function createCommands(ctx: CommandContext): TerminalCommand[] {
     getSkillsData,
     getContactData,
     getExperienceData,
+    getAboutEducation,
   } = ctx;
 
   return [
@@ -56,20 +58,21 @@ export function createCommands(ctx: CommandContext): TerminalCommand[] {
         const helpContent = [
           '╭─ Available Commands ─────────────────────────────────╮',
           '│                                                      ',
-          '│  help     - Display this help message              ',
-          '│  about    - Display portfolio info                 ',
-          '│  awards   - List of awards and achievements ',
-          '│  projects - List project details                   ',
-          '│  skills   - Display technical skills               ',
-          '│  contact  - Show contact information               ',
-          '│  ls       - List available sections                ',
-          '│  whoami   - Display current user                     ',
-          '│  version  - Terminal version                         ',
-          '│  social   - Social links                             ',
-          '│  clear    - Clear terminal screen                    ',
-          '│  home     - Return to main portfolio                 ',
-          '│  exit     - Same as home                             ',
-          '│  quit     - Alias for exit                           ',
+          '│  help      - Display this help message              ',
+          '│  about     - Display portfolio info                 ',
+          '│  education - Display education info                 ',
+          '│  awards    - List of awards and achievements ',
+          '│  projects  - List project details                   ',
+          '│  skills    - Display technical skills               ',
+          '│  contact   - Show contact information               ',
+          '│  ls        - List available sections                ',
+          '│  whoami    - Display current user                     ',
+          '│  version   - Terminal version                         ',
+          '│  social    - Social links                             ',
+          '│  clear     - Clear terminal screen                    ',
+          '│  home      - Return to main portfolio                 ',
+          '│  exit      - Same as home                             ',
+          '│  quit      - Alias for exit                           ',
           '│                                                      ',
           '╰────────────────────────────────────────────────────────╯',
         ];
@@ -118,6 +121,25 @@ export function createCommands(ctx: CommandContext): TerminalCommand[] {
             content: (
               <TypeWriter
                 text={`\n${getExperienceData()}\n`}
+                onComplete={() => setIsTyping(false)}
+                speed="fast"
+              />
+            ),
+          },
+        ]);
+      },
+    },
+     {
+      name: 'education',
+      description: 'List about education',
+      action: () => {
+        setOutput(prev => [
+          ...prev,
+          {
+            type: 'success',
+            content: (
+              <TypeWriter
+                text={`\n${getAboutEducation()}\n`}
                 onComplete={() => setIsTyping(false)}
                 speed="fast"
               />

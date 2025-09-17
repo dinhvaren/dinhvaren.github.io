@@ -7,10 +7,10 @@ const portfolios = [
     description: 'View my cybersecurity journey and achievements on TryHackMe.',
     link: 'https://tryhackme.com/p/dinhvaren',
   },
-  {
-    title: 'HackTheBox Profile',
-    description: 'Access all my social media profiles and links in one place.',
-    link: 'https://linktr.ee/',
+    {
+    title: 'picoCTF Profile',
+    description: 'Explore my picoCTF profile showcasing my achievements and progress in cybersecurity challenges.',
+    link: 'https://play.picoctf.org/users/dinhvaren',
   },
   {
     title: 'GitHub Profile',
@@ -18,9 +18,9 @@ const portfolios = [
     link: 'https://github.com/dinhvaren',
   },
   {
-    title: 'picoCTF Profile',
-    description: 'Explore my picoCTF profile showcasing my achievements and progress in cybersecurity challenges.',
-    link: 'https://play.picoctf.org/users/dinhvaren',
+    title: 'Facebook Profile',
+    description: 'Visit my Facebook profile to connect and follow my latest updates and activities.',
+    link: 'https://www.facebook.com/dvr.official.2203',
   }
 ];
 

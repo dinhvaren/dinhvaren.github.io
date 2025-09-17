@@ -3,42 +3,48 @@ import { Code2, Github, ExternalLink, Star } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Morpheus IOC Scanner',
-    description: 'My largest offensive security application, developed as part of my cybersecurity thesis. It uses YARA rules and VirusTotal integration to identify IOCs across the cyber kill chain.',
-    tech: ['Python', 'YARA', 'Threat Detection'],
-    github: 'https://github.com/phantom0004/morpheus_IOC_scanner',
+    title: 'AI SmartControll',
+    description: 'An AI-powered smart home control system designed to assist people with disabilities. It integrates voice recognition and computer vision to control home appliances, enhancing accessibility and independence.',
+    tech: ['Python'],
+    github: 'https://github.com/dinhvaren/AI-SmartControl',
+    demo: 'https://youtu.be/dQw4w9WgXcQ?si=mhxyVuKxYHya7T0P',
     featured: true
   },
   {
-    title: 'Oberon Framework',
-    description: 'A proof-of-concept remote access trojan (RAT) framework built for educational research.',
-    tech: ['Python', 'Remote Access', 'Command & Control'],
-    github: 'https://github.com/phantom0004/oberon-framework',
+    title: 'Video NFT DEX',
+    description: 'A decentralized video-sharing platform that integrates NFT minting and a built-in DEX, allowing creators to tokenize their content and trade directly with viewers.',
+    tech: ['Solidity','OpenZeppelin','Hardhat','Next.js', 'React.js','Node.js','Express.js','MongoDB'],
+    github: 'https://github.com/dinhvaren/Video_NFT_DEX_2',
+    demo: 'https://youtu.be/dQw4w9WgXcQ?si=mhxyVuKxYHya7T0P',
   },
   {
-    title: 'PenTest Vault',
-    description: 'A collection of offensive snippets and payloads crafted for ethical hacking, CTFs, and red team simulation tasks.',
-    tech: ['Python', 'C', 'Offensive Security'],
-    github: 'https://github.com/phantom0004/PenTest_Vault',
+    title: 'Noi That Phu Quy',
+    description: 'A full-stack furniture e-commerce website that allows users to browse products, manage shopping carts, and place orders, with an admin dashboard for product and order management.',
+    tech: ['HTML5', 'CSS3', 'JavaScript','Bootstrap 5', 'Node.js', 'Express.js','MongoDB'],
+    github: 'https://github.com/dinhvaren/nothatphuquy',
+    demo: 'https://youtu.be/dQw4w9WgXcQ?si=mhxyVuKxYHya7T0P',
   },
   {
-    title: 'KRYPT0S Ransomware PoC',
-    description: 'An educational ransomware and wiper PoC demonstrating file encryption, stealth, and evasion tactics using Python.',
-    tech: ['Python', 'Cryptography', 'Persistence'],
-    github: 'https://github.com/phantom0004/KRYPT0S-Ransomware_POC',
+    title: 'Coza Store',
+    description: 'An e-commerce web application built with Spring Boot, providing features like product browsing, shopping cart, order processing, and user authentication.',
+    tech: ['Java', 'SpringBoot'],
+    github: 'https://github.com/dinhvaren/cozastore',
+    demo: 'https://youtu.be/dQw4w9WgXcQ?si=mhxyVuKxYHya7T0P',
   },
   {
-    title: 'FuzzFindr Web Fuzzing Tool',
-    description: 'A lightweight web fuzzing tool inspired by "ffuf." Built to automate and customize web path discovery for offensive ops.',
-    tech: ['Python', 'Web Security', 'Fuzzing'],
-    github: 'https://github.com/phantom0004/FuzzFindr-Web-Fuzzing-Tool',
+    title: 'Personal Blog',
+    description: 'A planned personal blogging platform to share insights, project write-ups, and development notes. It will feature a clean UI, markdown support, and a content management dashboard.',
+    tech: ['React.js','Node.js','Express.js','MongoDB','Markdown'],
+    github: 'https://github.com/dinhvaren',
+    demo: 'https://youtu.be/dQw4w9WgXcQ?si=mhxyVuKxYHya7T0P',
   },
   {
-    title: 'Holocron Archives',
-    description: 'A curated archive of abandoned or experimental cybersecurity tools and ideas — lessons learned, tactics preserved.',
-    tech: ['Python', 'Red Teaming', 'Archives'],
-    github: 'https://github.com/phantom0004/Cybersecurity-Holocron-Archives',
-  }
+    title: 'Personal Exploit Framework Tool',
+    description: 'An upcoming framework intended for building and testing security exploits in a controlled environment, focusing on modular design and educational use.',
+    tech: ['Python','Exploit Development','Security Research'],
+    github: 'https://github.com/dinhvaren',
+    demo: 'https://youtu.be/dQw4w9WgXcQ?si=mhxyVuKxYHya7T0P',
+  },
 ];
 
 function ProjectCard({ project }: { project: typeof projects[0] }) {
