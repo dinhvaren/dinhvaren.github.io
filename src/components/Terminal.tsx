@@ -166,16 +166,30 @@ export function Terminal() {
 
   const getSkillsData = () => {
     const skillsContent = [
-      "╭─ Technical Skills ─────────────────────────╮",
-      "│                                            ",
-      "│  Security:  Offensive Dev, Ethical Hacking ",
-      "│  Languages: JavaScript, Java, C++, Python  ",
-      "│  Tools:     Burp Suite, Nmap, Amass, FFUF, ",
-      "│             Arjun                          ",
-      "│  Platforms: Kali Linux, Windows, Ubuntu    ",
-      "│                                            ",
-      "╰──────────────────────────────────────────────╯",
+      "╭─ Technical Skills ────────────────────────────────────────────────╮",
+      "│                                                                ",
+      "│  Programming:  JavaScript, Java, Python (basic)                ",
+      "│                                                                ",
+      "│  Web Security: Black-box & White-box testing, OWASP Top 10     ",
+      "│                Code review, File upload, Path traversal,       ",
+      "│                Command & SQL injection, etc                    ",
+      "│                                                                ",
+      "│  Tools:        Burp Suite, Nmap, Amass, FFUF, Arjun, Nmap, etc ",
+      "│                                                                ",                                                                
+      "│  Workflow:     Enumeration, Exploitation, Post-exploitation,   ",
+      "│                Report writing                                  ",
+      "│                                                                ",
+      "│  Practice:     TryHackMe, Hack The Box, picoCTF, PortSwigger,  ",
+      "│                CyberJutsu                                      ",
+      "│                                                                ",
+      "│  Other:        Spring Boot, Node.js Framework                  ",
+      "│                                                                ",
+      "│  Soft Skills:  Communication, Teamwork, Time Management,       ",
+      "│                Ability to Learn & Self-Improve                 ",
+      "│                                                                ",
+      "╰──────────────────────────────────────────────────────────────────────╯",
     ];
+
     return skillsContent.join("\n");
   };
 
