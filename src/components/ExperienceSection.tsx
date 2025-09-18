@@ -16,55 +16,6 @@ const experiences = [
     ],
     technologies: ["Red Teaming", "Security Testing", "Banking"]
   },
-  // {
-  //   title: "Junior Software Developer & Cybersecurity Sales Assistant",
-  //   company: "SG Solutions",
-  //   period: "Jan 2025 – Jul 2025",
-  //   description:
-  //     "Supported cybersecurity product sales (e.g., BullWall), managed document systems (e.g., DocuWare), and contributed to client solution delivery.",
-  //   achievements: [
-  //     "Assisted in implementing cybersecurity solutions for clients",
-  //     "Completed the DTE course and applied it in documentation processes",
-  //     "Improved internal documentation workflows for sales-related tools"
-  //   ],
-  //   technologies: ["Cybersecurity Sales", "Document Management", "Client Solutions"]
-  // },
-  // {
-  //   title: "IT Student Worker",
-  //   company: "Servizz.Gov",
-  //   period: "Jan 2024 – Dec 2024",
-  //   description: "Managed and optimized services, mentored a student in Microsoft applications, and integrated Power BI and Azure solutions.",
-  //   achievements: [
-  //     "Integrated Microsoft Azure with Power BI for internal service reporting",
-  //     "Automated workflows using Microsoft Power Automate",
-  //     "Mentored a junior student in Microsoft services and app development"
-  //   ],
-  //   technologies: ["Power BI", "Power Automate", "Microsoft Azure"]
-  // },
-  // {
-  //   title: "Cybersecurity SOC Tier 1 Analyst (Internship)",
-  //   company: "MITA",
-  //   period: "Aug 2024 – Aug 2024",
-  //   description: "Completed job shadowing for threat hunting and malware analysis using Microsoft cybersecurity products in a SOC environment.",
-  //   achievements: [
-  //     "Trained in malware analysis and threat intelligence",
-  //     "Performed simulated threat hunting tasks in a SOC setting",
-  //     "Used Microsoft security tools to assess real-world scenarios"
-  //   ],
-  //   technologies: ["Threat Intelligence", "Malware Analysis", "Microsoft Defender"]
-  // },
-  // {
-  //   title: "Summer Club Teacher and Programming Mentor",
-  //   company: "TCTC",
-  //   period: "Jun 2023 – Aug 2023",
-  //   description: "Taught Python and web development to children and mentored young students in IT fundamentals and programming basics.",
-  //   achievements: [
-  //     "Designed and delivered beginner-friendly Python coding lessons",
-  //     "Mentored students in building basic websites using HTML/CSS",
-  //     "Created engaging programming exercises for summer school participants"
-  //   ],
-  //   technologies: ["Python", "Web Development", "Mentorship"]
-  // }
 ];
 
 export function ExperienceSection() {
